@@ -4,7 +4,7 @@ AI execution infrastructure for games and agent-built software.
 
 A Zencode product · © Zencode Consulting Inc.
 
-Version `0.1.0` (marketplace `distributionVersion`, independent of the Python SDK).
+Version `0.1.1` (marketplace `distributionVersion`, independent of the Python SDK).
 
 ## Cursor
 
@@ -18,6 +18,8 @@ Set `HYDRACEPT_API_KEY` in **Plugins → Configure**.
 /plugin marketplace add hydracept/agent-plugins
 /plugin install hydracept@hydracept
 ```
+
+When Claude prompts for plugin configuration, set `HYDRACEPT_API_KEY`. Claude substitutes `${user_config.HYDRACEPT_API_KEY}` (not Cursor's `${HYDRACEPT_API_KEY}`).
 
 ## MCP Registry
 

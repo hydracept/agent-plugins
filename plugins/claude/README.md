@@ -11,6 +11,8 @@ Add the Hydracept marketplace, then install the namespaced plugin:
 /plugin install hydracept@hydracept
 ```
 
+When Claude prompts for plugin configuration, set `HYDRACEPT_API_KEY` (Claude `userConfig`). The plugin sends `Authorization: Bearer ${user_config.HYDRACEPT_API_KEY}`. Do not paste the key into chat.
+
 Commands: `/hydracept-init`, `/hydracept-doctor`.
 
 Local CLI fallback (optional): `python -m hydracept agents install --auto`.

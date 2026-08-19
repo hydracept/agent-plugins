@@ -10,7 +10,7 @@ Bootstrap Hydracept without asking the human to paste secrets into chat.
 ## Preferred path (marketplace / hosted MCP)
 
 1. Confirm the Hydracept plugin is enabled and the `hydracept` MCP server is connected.
-2. If Cursor asks for plugin variables, have the human set `HYDRACEPT_API_KEY` in **Plugins → Configure**. Do not solicit the key in chat.
+2. If the host asks for plugin configuration, have the human set `HYDRACEPT_API_KEY` (Cursor: **Plugins → Configure**; Claude: plugin `userConfig`). Do not solicit the key in chat.
 3. Call MCP `hydracept_status` (or the hosted equivalent) to confirm authentication.
 4. Call MCP `hydracept_capabilities` and summarize available capability keys.
 5. Offer `/hydracept-smoke` only when the human explicitly wants a paid verification job.
