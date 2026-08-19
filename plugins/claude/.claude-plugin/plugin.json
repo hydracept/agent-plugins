@@ -1,0 +1,24 @@
+{
+  "name": "hydracept",
+  "displayName": "Hydracept",
+  "version": "0.1.0",
+  "description": "AI execution you can trust: routed jobs, pinned inference, receipts, BYOK, and game-asset workflows (transparent PNGs, Sheet & Slice) through one API.",
+  "author": {
+    "name": "Zencode Consulting Inc.",
+    "email": "support@hydracept.com"
+  },
+  "homepage": "https://hydracept.com",
+  "repository": "https://github.com/hydracept/agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "hydracept",
+    "mcp",
+    "image generation",
+    "game assets",
+    "transparent png",
+    "sprite sheet",
+    "unity",
+    "agent skills"
+  ],
+  "minimumHydraceptVersion": "0.2.3"
+}

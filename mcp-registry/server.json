@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.hydracept/mcp",
+  "title": "Hydracept",
+  "description": "AI execution infrastructure for games and agent-built software.",
+  "version": "0.1.0",
+  "websiteUrl": "https://hydracept.com",
+  "repository": {
+    "url": "https://github.com/hydracept/agent-plugins",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.hydracept.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "Bearer {HYDRACEPT_API_KEY}",
+          "variables": {
+            "HYDRACEPT_API_KEY": {
+              "description": "Hydracept API key",
+              "isRequired": true,
+              "isSecret": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
