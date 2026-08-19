@@ -1,6 +1,6 @@
 # Hydracept for Cursor
 
-AI execution you can trust: routed jobs, pinned inference, receipts, BYOK, and game-asset workflows (transparent PNGs, Sheet & Slice) through one API.
+Production-ready game assets, with a receipt for every run. Sprite sheets, transparent PNGs, Sheet & Slice, BYOK, through one API.
 
 A Zencode product · © Zencode Consulting Inc.
 

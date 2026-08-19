@@ -4,7 +4,7 @@ AI execution infrastructure for games and agent-built software.
 
 A Zencode product · © Zencode Consulting Inc.
 
-Version `0.1.1` (marketplace `distributionVersion`, independent of the Python SDK).
+Version `0.1.2` (marketplace `distributionVersion`, independent of the Python SDK).
 
 ## Cursor
 
