@@ -1,3 +1,10 @@
+---
+name: hydracept-smoke
+description: >
+  Run an explicit paid Hydracept first-success smoke job. Do not run automatically
+  on IDE startup; only when the user asks to verify the setup.
+---
+
 # Hydracept Smoke
 
 Explicit paid first-success verification. Do not run automatically on IDE startup.

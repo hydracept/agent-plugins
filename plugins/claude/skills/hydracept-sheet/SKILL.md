@@ -1,3 +1,10 @@
+---
+name: hydracept-sheet
+description: >
+  Generate cohesive sprite, icon, glyph, and VFX families with Hydracept Sheet &
+  Slice. Use when the user needs a contact sheet or sliced frames.
+---
+
 # Hydracept Sheet
 
 Cohesive sprite, icon, glyph, and VFX families via Sheet & Slice.

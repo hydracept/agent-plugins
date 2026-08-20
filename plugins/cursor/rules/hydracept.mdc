@@ -1,0 +1,11 @@
+---
+description: Keep Hydracept API keys out of chat and prefer hosted MCP tools.
+alwaysApply: true
+---
+
+# Hydracept
+
+- Never ask the user to paste `HYDRACEPT_API_KEY` (or any bearer token) into chat.
+- Cursor users set the key in **Plugins → Configure**. The plugin sends `Authorization: Bearer ${HYDRACEPT_API_KEY}` to `https://api.hydracept.com/mcp`.
+- Prefer Hydracept MCP tools (`hydracept_capabilities`, `hydracept_submit_job`, `hydracept_job_status`, `hydracept_get_receipt`) over calling provider SDKs directly.
+- Do not run paid smoke jobs unless the user explicitly asks (`/hydracept-smoke`).

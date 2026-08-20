@@ -1,3 +1,10 @@
+---
+name: hydracept-image
+description: >
+  Generate production game images through Hydracept image.generate.v1 — transparent
+  sprites, icons, variants, and receipted jobs.
+---
+
 # Hydracept Image
 
 Production image generation judgment for game assets.

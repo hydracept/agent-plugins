@@ -1,3 +1,10 @@
+---
+name: hydracept-setup
+description: >
+  Bootstrap Hydracept in a coding-agent workspace. Use when installing the CLI,
+  running init, or connecting hosted MCP without pasting secrets into chat.
+---
+
 # Hydracept Setup
 
 Marketplace-first bootstrap for Hydracept in a coding agent workspace.
@@ -6,7 +13,7 @@ Marketplace-first bootstrap for Hydracept in a coding agent workspace.
 
 1. Check whether the Hydracept CLI is installed: `python -m hydracept --help`
 2. If missing, explain the install path and ask for approval before running any install command
-3. Verify version is at least the plugin `minimumHydraceptVersion`
+3. Verify the Hydracept CLI version is at least `0.2.3`
 4. Run `python -m hydracept init --apply --yes --json`
 5. If status is `interaction_required`:
    - Present `action.url` to the human
