@@ -9,6 +9,12 @@
     "url": "https://github.com/hydracept/agent-plugins",
     "source": "github"
   },
+  "icons": [
+    {
+      "src": "https://hydracept.com/hydracept-logo.png",
+      "mimeType": "image/png"
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
